@@ -1,0 +1,11 @@
+h1 {
+  font-family: 'Brush Script MT', serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+body {
+  font-family: sans-serif;
+  color: cornflowerblue;
+  background-color: floralwhite;
+}

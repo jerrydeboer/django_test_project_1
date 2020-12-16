@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}EDOS - NEW TEMPLATE{% endblock %}
+
+{% block content %}
+    <h1>edos - new template</h1>
+
+    <form method="post">
+    {% csrf_token %}
+    <table>
+        {{ form }}
+    </table>
+    <button type="submit">Create</button>
+</form>
+
+{% endblock %}
